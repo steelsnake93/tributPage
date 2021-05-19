@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#main {
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "."
+    "."
+    ".";
+    background-color: #e8e8e8;
+}
+#header {
+    grid-area: 1/1/1/13;
+    justify-self: center;
+    
+}
+#img-div{
+    display: grid;
+    grid-area: 2/1/2/13;
+    background-color: #fff;
+    max-width: 100%;
+}
+#imagearea {
+       justify-self: center;
+}
+#image{
+    width: 100%;
+    width: 100%;
+    max-width: 100%
+}
+#tribute-info{
+    grid-area: 3/5/3/9;
+    justify-self: center;
+}
+#quote {
+    font-style: italic;
+    color: #828282;
+}
+#link {
+    grid-area: 4/1/4/13;
+    justify-self: center;
+}
